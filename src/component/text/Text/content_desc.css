@@ -1,0 +1,10 @@
+.content-desc {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.3rem;
+    hyphens: auto;
+    margin-right: 40px;
+    word-spacing: 0.3rem;
+    text-transform: capitalize;
+}

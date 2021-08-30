@@ -1,0 +1,44 @@
+// Well actually i didn't ever used SASS but i needed something like line 30
+// And in CSS it wouldn't be as flexible as this
+.gallery-root {
+  width: 350px;
+  height: 100%;
+  transition: all 2s;
+  overflow: hidden;
+  user-select: none;
+  cursor: pointer;
+
+}
+
+.gallery-container {
+  width: 220%;
+  height: 100%;
+  transition: all 2s;
+}
+
+.gallery {
+  flex-wrap: wrap;
+  width: 350px;
+  height: 350px;
+}
+
+.gallery-item-container {
+  width: 100%;
+  height: 46.5%;
+}
+
+.gallery-item {
+  width: 46.5%;
+  height: 100%;
+  border-radius: 30%;
+  transition: all 1.2s;
+
+}
+
+.gallery-item:hover {
+  transform: scale(0.7);
+}
+.gallery-content {
+  font-size: 17px;
+  text-align: center;
+}

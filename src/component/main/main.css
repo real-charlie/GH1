@@ -1,0 +1,22 @@
+.start-container {
+    transition: background-color 0.7s;
+}
+.start-container-internal {
+    padding: 20px;
+    height: 100%;
+}
+.lower-case {
+    text-transform: lowercase;
+}
+.case {
+
+}
+.case_r{}
+.case_r:hover {
+    background-color: black!important;
+}
+.case_r:hover .case{
+    right: 30px!important;
+    background-color: aqua!important;
+
+}
